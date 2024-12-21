@@ -7,7 +7,7 @@ This repository contains the server-side implementation of an Online Book Review
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Tasks and Implementation](#tasks-and-implementation)
-- [Project Certificate](#project-certificate)
+- [Course Certificate](#project-certificate)
 
 ## Overview
 The Online Book Review application is designed to manage book reviews for an online bookstore. It provides a RESTful API for managing books and reviews, allowing multiple users to interact with the system simultaneously. Authentication ensures that only authorized users can perform certain operations, such as adding, editing, or deleting reviews.
