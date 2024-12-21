@@ -6,10 +6,7 @@ This repository contains the server-side implementation of an Online Book Review
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Tasks Implemented](#tasks-implemented)
-- [Testing the API](#testing-the-api)
-- [Screenshots](#screenshots)
-- [Setup and Installation](#setup-and-installation)
+- [Features Implemented](#features-implemented)
 - [Project Certificate](#project-certificate)
 
 ## Overview
@@ -32,91 +29,58 @@ The Online Book Review application is designed to manage book reviews for an onl
 - **Postman**: For API testing.
 - **Async/Await and Promises**: To handle asynchronous operations.
 
-## Tasks Implemented
-1. **Task 1**: Get the book list available in the shop.
+## Features Implemented
+1. **1**: Get the book list available in the shop.
    
    ![Task 1 Screenshot](images/1-getallbooks.png)
 
-2. **Task 2**: Get the books based on ISBN.
+2. **2**: Get the books based on ISBN.
    
-   ![Task 2 Screenshot](images/2-gedetailsISBN.png)
+   ![Task 2 Screenshot](images/2-getdetailsISBN.png)
 
-3. **Task 3**: Get all books by the author.
+3. **3**: Get all books by the author.
    
    ![Task 3 Screenshot](images/3-getbooksbyauthor.png)
 
-4. **Task 4**: Get all books based on title.
+4. **4**: Get all books based on title.
    
    ![Task 4 Screenshot](images/4-getbooksbytitle.png)
 
-5. **Task 5**: Get a book review.
+5. **5**: Get a book review.
    
    ![Task 5 Screenshot](images/5-getbookreview.png)
 
-6. **Task 6**: Register new user.
+6. **6**: Register new user.
    
    ![Task 6 Screenshot](images/6-register.png)
 
-7. **Task 7**: Login as a registered user.
+7. **7**: Login as a registered user.
    
    ![Task 7 Screenshot](images/7-login.png)
 
-8. **Task 8**: Add/modify a book review.
+8. **8**: Add/modify a book review.
    
    ![Task 8 Screenshot](images/8-reviewadded.png)
 
-9. **Task 9**: Delete the book review that was earlier added by that particular user.
+9. **9**: Delete the book review that was earlier added by that particular user.
    
    ![Task 9 Screenshot](images/9-deletereview.png)
 
-10. **Task 10**: Get all books using an async callback function.
+10. **10**: Get all books using an async callback function.
     
     ![Task 10 Screenshot](images/task10.png)
 
-11. **Task 11**: Search by ISBN using Promises.
+11. **11**: Search by ISBN using Promises.
     
     ![Task 11 Screenshot](images/task11.png)
 
-12. **Task 12**: Search by Author.
+12. **12**: Search by Author.
     
     ![Task 12 Screenshot](images/task12.png)
 
-13. **Task 13**: Search by Title.
+13. **13**: Search by Title.
     
     ![Task 13 Screenshot](images/task13.png)
-
-## Testing the API
-1. Use Postman to test each API endpoint.
-2. Verify CRUD operations for books and reviews.
-3. Test authentication workflows, including registration and login.
-
-_Screenshot: Postman collection showing all API requests and responses._
-
-## Screenshots
-- Repository Setup: Forked and cloned repository.
-- Environment Setup: `npm install` and server connection.
-- Authentication: Login and JWT token retrieval.
-- CRUD Operations: Adding, modifying, and deleting reviews.
-- Async/Await: Code demonstrating asynchronous operations.
-
-## Setup and Installation
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd express-book-review
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the server:
-   ```bash
-   npm start
-   ```
-5. Test the API using Postman or a similar tool.
 
 ## Project Certificate
 You can view the project certificate [here](https://github.com/KunalSachdev2005/expressBookReviews/blob/main/Developing_Back-end_Apps_with_Node_JS_%26_Express_Certificate.pdf).
