@@ -6,17 +6,11 @@ This repository contains the server-side implementation of an Online Book Review
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Breakdown](#project-breakdown)
-  - [Part A: Forking and Cloning the Repository](#part-a-forking-and-cloning-the-repository)
-  - [Part B: Setting Up the Environment](#part-b-setting-up-the-environment)
-  - [Part C: Implementing Authentication](#part-c-implementing-authentication)
-  - [Part D: CRUD Operations](#part-d-crud-operations)
-  - [Part E: Enhancing with Async/Await and Promises](#part-e-enhancing-with-asyncawait-and-promises)
+- [Tasks Implemented](#tasks-implemented)
 - [Testing the API](#testing-the-api)
 - [Screenshots](#screenshots)
 - [Setup and Installation](#setup-and-installation)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Certificate](#project-certificate)
 
 ## Overview
 The Online Book Review application is designed to manage book reviews for an online bookstore. It provides a RESTful API for managing books and reviews, allowing multiple users to interact with the system simultaneously. Authentication ensures that only authorized users can perform certain operations, such as adding, editing, or deleting reviews.
@@ -38,42 +32,41 @@ The Online Book Review application is designed to manage book reviews for an onl
 - **Postman**: For API testing.
 - **Async/Await and Promises**: To handle asynchronous operations.
 
-## Project Breakdown
+## Tasks Implemented
+1. **Task 1**: Get the book list available in the shop.  
+   _Screenshot: [1-getallbooks.png](images/1-getallbooks.png)_
 
-### Part A: Forking and Cloning the Repository
-1. Fork the provided GitHub repository to create your own copy.
-2. Clone the forked repository to your local development environment.
+2. **Task 2**: Get the books based on ISBN.  
+   _Screenshot: [2-gedetailsISBN.png](images/2-gedetailsISBN.png)_
 
-_Screenshot: Repository cloned into the development environment._
+3. **Task 3**: Get all books by the author.  
+   _Screenshot: [3-getbooksbyauthor.png](images/3-getbooksbyauthor.png)_
 
-### Part B: Setting Up the Environment
-1. Navigate to the `express` server directory.
-2. Run `npm install` to install all necessary packages.
-3. Use Postman to test the API endpoints with your credentials.
+4. **Task 4**: Get all books based on title.  
+   _Screenshot: [4-getbooksbytitle.png](images/4-getbooksbytitle.png)_
 
-_Screenshot: Output of `npm install` and successful connection to the server._
+5. **Task 5**: Get a book review.  
+   _Screenshot: [5-getbookreview.png](images/5-getbookreview.png)_
 
-### Part C: Implementing Authentication
-1. Configure JWT for token-based authentication.
-2. Implement session-level authentication to manage user sessions.
-3. Restrict access to certain endpoints (e.g., add, edit, delete reviews) to authenticated users only.
+6. **Task 6**: Register new user.  
+   _Screenshot: [6-register.png](images/6-register.png)_
 
-_Screenshot: Postman test showing successful login and token retrieval._
+7. **Task 7**: Login as a registered user.  
+   _Screenshot: [7-login.png](images/7-login.png)_
 
-### Part D: CRUD Operations
-1. **Retrieve Books**: Fetch all books or search by ISBN, author, or title.
-2. **Add Review**: Allow logged-in users to add a review.
-3. **Modify Review**: Restrict logged-in users to modify their own reviews.
-4. **Delete Review**: Restrict logged-in users to delete their own reviews.
+8. **Task 8**: Add/modify a book review.  
+   _Screenshot: [8-reviewadded.png](images/8-reviewadded.png)_
 
-_Screenshot: Postman tests demonstrating successful CRUD operations._
+9. **Task 9**: Delete the book review that was earlier added by that particular user.  
+   _Screenshot: [9-deletereview.png](images/9-deletereview.png)_
 
-### Part E: Enhancing with Async/Await and Promises
-1. Use `async`/`await` for retrieving all books.
-2. Use Promises for searching books by ISBN, author, or title.
-3. Ensure concurrent operations for multiple users.
-
-_Screenshot: Code snippet implementing async/await and Promises._
+10. **Task 10**: Get all books using an async callback function.
+     _Screenshot: [10-getbookcallback.png](images/task10.png)_
+    
+12. **Task 11**: Search by ISBN using Promises.
+13. **Task 12**: Search by Author.
+14. **Task 13**: Search by Title.
+15. **Task 14**: Submit the project GitHub link.
 
 ## Testing the API
 1. Use Postman to test each API endpoint.
@@ -89,28 +82,6 @@ _Screenshot: Postman collection showing all API requests and responses._
 - CRUD Operations: Adding, modifying, and deleting reviews.
 - Async/Await: Code demonstrating asynchronous operations.
 
-## Setup and Installation
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd express-book-review
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the server:
-   ```bash
-   npm start
-   ```
-5. Test the API using Postman or a similar tool.
-
-## Contributing
-Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Project Certificate
+You can view the project certificate [here](https://github.com/KunalSachdev2005/expressBookReviews/blob/main/Developing_Back-end_Apps_with_Node_JS_%26_Express_Certificate.pdf).
 
