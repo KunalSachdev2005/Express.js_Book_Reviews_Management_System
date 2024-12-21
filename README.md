@@ -83,5 +83,5 @@ The Online Book Review application is designed to manage book reviews for an onl
     ![Task 13 Screenshot](images/task13.png)
 
 ## Project Certificate
-You can view the project certificate [here](https://github.com/KunalSachdev2005/expressBookReviews/blob/main/Developing_Back-end_Apps_with_Node_JS_%26_Express_Certificate.pdf).
+You can view the course certificate [here](https://github.com/KunalSachdev2005/expressBookReviews/blob/main/Developing_Back-end_Apps_with_Node_JS_%26_Express_Certificate.pdf).
 
