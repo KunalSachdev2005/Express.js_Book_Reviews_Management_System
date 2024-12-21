@@ -6,7 +6,7 @@ This repository contains the server-side implementation of an Online Book Review
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Features Implemented](#features-implemented)
+- [Tasks and Implementation](##tasks-and-implementation)
 - [Project Certificate](#project-certificate)
 
 ## Overview
