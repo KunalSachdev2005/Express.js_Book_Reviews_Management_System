@@ -34,7 +34,7 @@ The Online Book Review application is designed to manage book reviews for an onl
 
 ## Tasks Implemented
 1. **Task 1**: Get the book list available in the shop.  
-   _Screenshot: [1-getallbooks.png](images/1-getallbooks.png)_
+   ![1-getallbooks.png](images/1-getallbooks.png)
 
 2. **Task 2**: Get the books based on ISBN.  
    _Screenshot: [2-gedetailsISBN.png](images/2-gedetailsISBN.png)_
