@@ -30,7 +30,7 @@ The Online Book Review application is designed to manage book reviews for an onl
 - **Async/Await and Promises**: To handle asynchronous operations.
 
 ## Features Implemented
-1. **1**: Get the book list available in the shop.
+1. Get the book list available in the shop.
    
    ![Task 1 Screenshot](images/1-getallbooks.png)
 
