@@ -29,56 +29,56 @@ The Online Book Review application is designed to manage book reviews for an onl
 - **Postman**: For API testing.
 - **Async/Await and Promises**: To handle asynchronous operations.
 
-## Features Implemented
-1. Get the book list available in the shop.
+## Tasks and Implementation
+1. Task 1: Get the book list available in the shop.
    
    ![Task 1 Screenshot](images/1-getallbooks.png)
 
-2. Get the books based on ISBN.
+2. Task 2: Get the books based on ISBN.
    
    ![Task 2 Screenshot](images/2-getdetailsISBN.png)
 
-3. Get all books by the author.
+3. Task 3: Get all books by the author.
    
    ![Task 3 Screenshot](images/3-getbooksbyauthor.png)
 
-4. Get all books based on title.
+4. Task 4: Get all books based on title.
    
    ![Task 4 Screenshot](images/4-getbooksbytitle.png)
 
-5. Get a book review.
+5. Task 5: Get a book review.
    
    ![Task 5 Screenshot](images/5-getbookreview.png)
 
-6. Register new user.
+6. Task 6: Register new user.
    
    ![Task 6 Screenshot](images/6-register.png)
 
-7. Login as a registered user.
+7. Task 7: Login as a registered user.
    
    ![Task 7 Screenshot](images/7-login.png)
 
-8. Add/modify a book review.
+8. Task 8: Add/modify a book review.
    
    ![Task 8 Screenshot](images/8-reviewadded.png)
 
-9. Delete the book review that was earlier added by that particular user.
+9. Task 9: Delete the book review that was earlier added by that particular user.
    
    ![Task 9 Screenshot](images/9-deletereview.png)
 
-10. Get all books using an async callback function.
+10. Task 10: Get all books using an async callback function.
     
     ![Task 10 Screenshot](images/task10.png)
 
-11. Search by ISBN using Promises.
+11. Task 11: Search by ISBN using Promises.
     
     ![Task 11 Screenshot](images/task11.png)
 
-12. Search by Author.
+12. Task 12: Search by Author.
     
     ![Task 12 Screenshot](images/task12.png)
 
-13. Search by Title.
+13. Task 13: Search by Title.
     
     ![Task 13 Screenshot](images/task13.png)
 
