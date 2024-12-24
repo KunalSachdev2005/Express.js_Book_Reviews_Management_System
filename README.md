@@ -1,6 +1,6 @@
 # Online Book Review Application
 
-This repository contains the server-side implementation of an Online Book Review application, developed using Node.js and Express.js. This project demonstrates the practical application of back-end development skills, focusing on RESTful APIs, CRUD operations, authentication, asynchronous programming, and using node package manager (npm).
+This repository contains the server-side implementation of an Online Book Review application, developed using Node.js and Express.js. This project demonstrates the practical application of back-end development skills, focusing on RESTful APIs, CRUD operations, authentication, asynchronous programming, and managing dependencies and modules using node package manager (npm).
 
 ## Table of Contents
 - [Overview](#overview)
